@@ -1,8 +1,8 @@
-# Copy Creator
+# Copy OS
 
 [简体中文](README.zh-CN.md)
 
-Copy Creator is a Windows-first clipboard productivity app. It combines clipboard history, reusable phrases, translation, quick access, and local settings into a compact desktop tool.
+Copy OS is a Windows clipboard manager, snippet library, and quick paste tool. It combines clipboard history, reusable phrases, lightweight translation, quick access, and local settings into a compact desktop workflow.
 
 > Project status: early desktop build. The current runnable Windows app is the WinForms/WebView2 shell in `desktop/`. The `src-tauri/` folder is kept as an experimental Tauri 2 scaffold.
 
@@ -18,7 +18,7 @@ Copy Creator is a Windows-first clipboard productivity app. It combines clipboar
 
 ## Screenshots
 
-Copy Creator is built around a compact desktop workflow: keep recent clipboard items searchable, turn repeated text into reusable phrases, translate short content, and keep everyday copy/paste actions close to the Windows tray.
+Copy OS is built around everyday copy and paste work: keep recent clipboard items searchable, turn repeated text into reusable snippets, translate short content, and open a quick paste panel near the Windows tray.
 
 ![Clipboard history](docs/images/en/clipboard-history.png)
 

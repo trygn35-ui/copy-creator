@@ -1,6 +1,6 @@
 # Privacy
 
-Copy Creator is designed as a local-first desktop app.
+Copy OS is designed as a local-first desktop app.
 
 ## Local Data
 
@@ -19,4 +19,3 @@ API keys should never be committed. Use local configuration only, and rotate key
 ## Network Requests
 
 Translation features may call a configured OpenAI-compatible API endpoint. Review the endpoint provider's privacy policy before using it with sensitive content.
-

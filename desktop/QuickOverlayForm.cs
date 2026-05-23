@@ -16,7 +16,7 @@ internal sealed class QuickOverlayForm : Form
         _data = data;
         _copyClipboard = copyClipboard;
         _copyPhrase = copyPhrase;
-        Text = "Copy Creator Quick Overlay";
+        Text = "Copy OS Quick Panel";
         FormBorderStyle = FormBorderStyle.None;
         ShowInTaskbar = false;
         TopMost = true;

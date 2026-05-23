@@ -54,7 +54,7 @@ internal sealed partial class MainForm : Form
 
     public MainForm()
     {
-        Text = "Copy Creator";
+        Text = "Copy OS";
         FormBorderStyle = FormBorderStyle.None;
         MinimumSize = new Size(760, 560);
         Size = new Size(900, 620);
@@ -670,7 +670,7 @@ internal sealed partial class MainForm : Form
 
     private void BuildTray()
     {
-        _trayIcon.Text = "Copy Creator";
+        _trayIcon.Text = "Copy OS";
         _trayIcon.Icon = SystemIcons.Application;
         _trayIcon.Visible = true;
         _trayIcon.DoubleClick += (_, _) => RestoreFromTray();
@@ -722,7 +722,7 @@ internal sealed partial class MainForm : Form
         {
             e.Cancel = true;
             Hide();
-            _trayIcon.ShowBalloonTip(1000, "Copy Creator", "已隐藏到托盘，剪贴板记录继续运行。", ToolTipIcon.Info);
+            _trayIcon.ShowBalloonTip(1000, "Copy OS", "已隐藏到托盘，剪贴板记录继续运行。", ToolTipIcon.Info);
             return;
         }
 

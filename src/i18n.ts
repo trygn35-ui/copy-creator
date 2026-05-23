@@ -1,7 +1,7 @@
 import type { Language } from "./types";
 
 const zh = {
-  appName: "Copy Creator",
+  appName: "Copy OS",
   clipboard: "剪贴板",
   phrases: "快捷短语",
   translate: "翻译",
@@ -71,7 +71,7 @@ const zh = {
 };
 
 const en: typeof zh = {
-  appName: "Copy Creator",
+  appName: "Copy OS",
   clipboard: "Clipboard",
   phrases: "Quick Phrases",
   translate: "Translate",

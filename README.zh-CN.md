@@ -1,8 +1,8 @@
-# Copy Creator
+# Copy OS
 
 [English](README.md)
 
-Copy Creator 是一个 Windows 优先的剪贴板效率工具，目标是把剪贴板历史、常用短语、翻译、快捷呼出和本地设置集中到一个轻量桌面应用里。
+Copy OS 是一个 Windows 剪贴板管理、常用短语和快捷粘贴工具，目标是把剪贴板历史、可复用短语、轻量翻译、快捷呼出和本地设置集中到一个紧凑桌面工作流里。
 
 > 当前状态：早期桌面版。现在真正可运行的 Windows 程序在 `desktop/`，使用 WinForms + WebView2。`src-tauri/` 暂时保留为 Tauri 2 实验骨架。
 
@@ -18,7 +18,7 @@ Copy Creator 是一个 Windows 优先的剪贴板效率工具，目标是把剪�
 
 ## 截图
 
-Copy Creator 围绕紧凑的桌面工作流设计：让最近复制过的内容可搜索、让重复输入变成可复用短语，支持短文本翻译，并把常用复制粘贴动作放在靠近 Windows 托盘的位置。
+Copy OS 围绕日常复制粘贴工作设计：让最近复制过的内容可搜索，让重复输入变成可复用短语，支持短文本翻译，并把快捷粘贴面板放在靠近 Windows 托盘的位置。
 
 ![剪贴板历史](docs/images/zh-CN/clipboard-history.png)
 

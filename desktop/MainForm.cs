@@ -50,7 +50,7 @@ internal sealed class MainForm : Form
     public MainForm()
     {
         _mouseProc = HandleGlobalMouse;
-        Text = "Copy Creator";
+        Text = "Copy OS";
         Icon = LoadAppIcon();
         FormBorderStyle = FormBorderStyle.None;
         MinimumSize = new Size(760, 560);
@@ -89,7 +89,7 @@ internal sealed class MainForm : Form
         trayMenu.Items.Add("设置", null, async (_, _) => await RestoreAndOpenTab("settings"));
         trayMenu.Items.Add(new ToolStripSeparator());
         trayMenu.Items.Add("退出", null, (_, _) => ExitApplication());
-        _trayIcon.Text = "Copy Creator";
+        _trayIcon.Text = "Copy OS";
         _trayIcon.Icon = LoadAppIcon();
         _trayIcon.ContextMenuStrip = trayMenu;
         _trayIcon.Visible = true;

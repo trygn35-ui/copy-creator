@@ -14,7 +14,7 @@ use tauri::{
     Manager, WindowEvent,
 };
 
-/// 启动 Copy Creator 桌面应用，初始化托盘、窗口行为、插件和命令接口。
+/// 启动 Copy OS 桌面应用，初始化托盘、窗口行为、插件和命令接口。
 ///
 /// 关闭主窗口时默认隐藏到托盘，只有托盘“退出”动作会真正结束程序。
 pub fn run() {
@@ -57,7 +57,7 @@ pub fn run() {
             utility_command
         ])
         .run(tauri::generate_context!())
-        .expect("failed to run Copy Creator");
+        .expect("failed to run Copy OS");
 }
 
 /// 创建系统托盘和最小菜单，只保留打开、设置、退出三个动作。

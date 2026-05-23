@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "Copy Creator",
+  "productName": "Copy OS",
   "version": "0.1.0",
   "identifier": "com.mayi.copycreator",
   "build": {
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "Copy Creator",
+        "title": "Copy OS",
         "width": 900,
         "height": 620,
         "minWidth": 760,

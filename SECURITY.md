@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-Copy Creator is currently pre-release software. Security fixes target the latest commit on the main branch.
+Copy OS is currently pre-release software. Security fixes target the latest commit on the main branch.
 
 ## Reporting a Vulnerability
 
@@ -23,4 +23,3 @@ Do not commit:
 ## Local Runtime Notes
 
 The desktop app stores data next to the executable by default. Treat any generated `data/` directory as private user data.
-
