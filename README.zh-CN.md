@@ -20,15 +20,15 @@ Copy Creator 是一个 Windows 优先的剪贴板效率工具，目标是把剪�
 
 Copy Creator 围绕紧凑的桌面工作流设计：让最近复制过的内容可搜索、让重复输入变成可复用短语，支持短文本翻译，并把常用复制粘贴动作放在靠近 Windows 托盘的位置。
 
-![剪贴板历史](docs/images/clipboard-history.png)
+![剪贴板历史](docs/images/zh-CN/clipboard-history.png)
 
-![常用短语](docs/images/phrase-library.png)
+![常用短语](docs/images/zh-CN/phrase-library.png)
 
-![智能翻译](docs/images/translation-panel.png)
+![智能翻译](docs/images/zh-CN/translation-panel.png)
 
-![系统设置](docs/images/settings-panel.png)
+![系统设置](docs/images/zh-CN/settings-panel.png)
 
-![快捷面板](docs/images/quick-panel.png)
+![快捷面板](docs/images/zh-CN/quick-panel.png)
 
 ## 技术栈
 
