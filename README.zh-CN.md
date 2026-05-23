@@ -69,32 +69,10 @@ docs/         项目文档和上传指南
 .github/      GitHub Issue、PR 和 CI 配置
 ```
 
-## 数据与隐私
-
-运行数据只应该保存在本机，不应该上传到 GitHub：
-
-- `release/data/`
-- `data/`
-- 日志文件
-- 缓存文件
-- `.env` 文件
-
-仓库里的 `.gitignore` 已经默认排除了这些内容。
-
-## 上传 GitHub 是否等于开源？
-
-不等于。
-
-- 创建仓库时选择 `Private`，仓库就是私有的，别人看不到。
-- 选择 `Public`，才是公开可见。
-- 不要急着添加 `LICENSE` 文件；许可证代表你授权别人如何使用代码，等你决定公开开源时再选。
-
-第一次上传可以看：[docs/GITHUB_UPLOAD.zh-CN.md](docs/GITHUB_UPLOAD.zh-CN.md)。
-
 ## 更新记录
 
 见 [CHANGELOG.md](CHANGELOG.md)。
 
 ## 安全
 
-不要提交 API Key、剪贴板数据、日志或运行缓存。更多说明见 [SECURITY.md](SECURITY.md) 和 [PRIVACY.md](PRIVACY.md)。
+更多说明见 [SECURITY.md](SECURITY.md) 和 [PRIVACY.md](PRIVACY.md)。

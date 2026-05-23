@@ -69,32 +69,10 @@ docs/         Project docs and publishing guides
 .github/      GitHub issue, PR, and workflow files
 ```
 
-## Data and Privacy
-
-Runtime data is local and should not be committed:
-
-- `release/data/`
-- `data/`
-- logs
-- cache files
-- `.env` files
-
-The repository `.gitignore` excludes these paths by default.
-
-## GitHub Visibility
-
-Uploading this project to GitHub does not automatically make it open source.
-
-- Choose `Private` when creating the GitHub repository if you do not want others to see it.
-- Choose `Public` only when you are ready to share it.
-- Do not add a `LICENSE` file until you decide how other people may use the code.
-
-See [docs/GITHUB_UPLOAD.zh-CN.md](docs/GITHUB_UPLOAD.zh-CN.md) for a beginner-friendly upload checklist.
-
 ## Release Notes
 
 See [CHANGELOG.md](CHANGELOG.md).
 
 ## Security
 
-Please do not commit API keys, clipboard data, logs, or runtime caches. See [SECURITY.md](SECURITY.md) and [PRIVACY.md](PRIVACY.md).
+See [SECURITY.md](SECURITY.md) and [PRIVACY.md](PRIVACY.md).
