@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Frontend build output
+dist/
+
+# Tauri and Rust build output
+src-tauri/target/
+
+# .NET build output
+desktop/bin/
+desktop/obj/
+
+# Local release/runtime output
+release/
+release-*/
+*-portable/
+*-portable.zip
+
+# Imported design/prototype scratch files
+stitch-import/
+
+# Local data, logs, caches, and secrets
+data/
+*.log
+*.bak
+*.tmp
+*.local
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.vscode/
+.idea/
+.vs/
+*.user
+*.suo
+*.swp
+Thumbs.db
+Desktop.ini
