@@ -18,7 +18,15 @@ Copy Creator is a Windows-first clipboard productivity app. It combines clipboar
 
 ## Screenshots
 
-Screenshots are not committed yet because this repository is being prepared for clean GitHub publishing. Add non-private screenshots under `docs/images/` when you are ready.
+Copy Creator is built around a compact desktop workflow: keep recent clipboard items searchable, turn repeated text into reusable phrases, and keep everyday copy/paste actions close to the Windows tray.
+
+![Copy Creator overview](docs/images/copy-creator-overview.png)
+
+![Clipboard history](docs/images/clipboard-history.png)
+
+![Phrase library](docs/images/phrase-library.png)
+
+![Settings panel](docs/images/settings-panel.png)
 
 ## Tech Stack
 

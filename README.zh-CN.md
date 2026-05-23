@@ -18,7 +18,15 @@ Copy Creator 是一个 Windows 优先的剪贴板效率工具，目标是把剪�
 
 ## 截图
 
-当前仓库准备做干净上传，暂时不提交带个人内容的截图。以后可以把脱敏截图放到 `docs/images/`。
+Copy Creator 围绕紧凑的桌面工作流设计：让最近复制过的内容可搜索、让重复输入变成可复用短语，并把常用复制粘贴动作放在靠近 Windows 托盘的位置。
+
+![Copy Creator 主界面](docs/images/copy-creator-overview.png)
+
+![剪贴板历史](docs/images/clipboard-history.png)
+
+![常用短语](docs/images/phrase-library.png)
+
+![系统设置](docs/images/settings-panel.png)
 
 ## 技术栈
 
